@@ -65,5 +65,7 @@ library, to be released) on 2, 4, 8, 16, 32, 64, and 128 processes for all slici
   end)
 ```
 
-Output:
-![run times](mandelbrot_run_times.png)
+Formatted output of run times (with process count down the left and slicing mode
+along the top):
+
+![run times](docs/mandelbrot_run_times.png)
