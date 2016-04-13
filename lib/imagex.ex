@@ -1,0 +1,2 @@
+defmodule Imagex do
+end
