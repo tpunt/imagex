@@ -14,26 +14,33 @@ that needs to be done, including:
 
 Exposed APIs will most likely change, so do not rely on it yet...
 
+
 ## Installation
 
 Fetch the code from this repo - installation via Hex is not available yet...
+
 
 ## About
 
 This library schedules processes to run each chunk a fractal has been divided
 into. It enables for the following slicing modes:
 
-`:horizontal`
+`:horizontal` slicing:
+
 ![horizontal slicing](docs/mandelbrot_h.png)
 
-`:vertical`
+`:vertical` slicing:
+
 ![vertical slicing](docs/mandelbrot_v.png)
 
-`{:grid, :horizontal}`
+`{:grid, :horizontal}` slicing:
+
 ![grid horizontal slicing](docs/mandelbrot_gh.png)
 
-`{:grid, :vertical}`
+`{:grid, :vertical}` slicing:
+
 ![grid vertical slicing](docs/mandelbrot_gv.png)
+
 
 ## Usage
 
